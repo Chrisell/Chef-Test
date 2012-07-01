@@ -1,0 +1,15 @@
+# Testing server configuration #
+
+## Utitilizing the following tools ##
+
+### Virtualbox ###
+https://www.virtualbox.org/
+
+### Vagrant ###
+http://vagrantup.com/
+
+### Chef Solo ###
+http://wiki.opscode.com/display/chef/Chef+Solo
+
+### Librarian ###
+https://github.com/applicationsonline/librarian
