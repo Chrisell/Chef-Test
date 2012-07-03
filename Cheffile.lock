@@ -26,7 +26,15 @@ GIT
     git (0.9.0)
       runit (>= 0.0.0)
 
+GIT
+  remote: https://github.com/opscode-cookbooks/apache2
+  ref: master
+  sha: 2a9bd276a94b702be43c2df89fa953458cb03598
+  specs:
+    apache2 (1.1.10)
+
 DEPENDENCIES
+  apache2 (>= 0)
   apt (>= 0)
   build-essential (>= 0)
   git (>= 0)

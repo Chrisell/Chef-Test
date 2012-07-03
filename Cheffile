@@ -13,6 +13,10 @@ cookbook 'git',
 
 cookbook 'build-essential'
 
+cookbook 'apache2',
+
+  git: 'https://github.com/opscode-cookbooks/apache2'
+
 cookbook 'rvm', 
 
   git: 'git://github.com/fnichol/chef-rvm.git', ref: 'v0.8.6'
